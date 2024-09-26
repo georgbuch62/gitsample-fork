@@ -20,6 +20,7 @@ import org.eclipse.example.calc.internal.operations.Square;
 
 public class Calculator {
 
+	// Toller Kommentar!!
 	private TextProvider textProvider;
 
 	private String cmd;
@@ -36,6 +37,9 @@ public class Calculator {
 	}
 
 	private void setupDefaultOperations() {
+		// this is a sample comment
+		// more operations to come
+		// another comment
 		new Equals();
 		new Minus();
 		new Plus();
